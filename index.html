@@ -96,7 +96,7 @@
     <h3 class="sclass">Used a class in html</h3>
     <p class="abc xyz"> Multiple class</p>
 
-    <p style="text-allign:right">
+    <p style="text-align:right">
         Right
     </p>
 
@@ -121,12 +121,73 @@
     <form action="" method="get">
       <p>Give me some valuable feedback :</p>
       <textarea rows="3" cols="60" name="feedback">
-          Please enter your your text here
+          Type here
       </textarea>
       <br>
       <input type="submit" value="Send">
     </form>
     <a href="#here"><img src="top.png" height="40"></a>
+
+    <form class="" action="index.html" method="post">
+      <p>Enter your name:</p>
+      <input type="text" name="feedback"><br><br>
+      Check Boxes <br>
+      <input type="checkbox" name="items" value="Good">Good<br>
+      <input type="checkbox" name="items" value="Bad">Bad<br>
+      <input type="checkbox" name="items" value="Worse">Worse<br>
+   </form>
+
+    <form>
+      <p>Enter your Password</p>
+      <input type="password" name"password"><br>
+    </form>
+
+    <form >
+      <p>What is your Branch</p>
+      <select name="branch">
+        <option value="a">Electrical</option>
+        <option value="b">Mechanical</option>
+        <option value="c">Civil</option>
+        <option value="d">COmputer Science</option>
+        <option value="e">Electronics<option>
+
+      </select>
+    </form>
+          What do you call me. <br>
+        <input type="text" placeholder="Nick Name" autofocus required><br>
+        <input type="submit" name="Submit" >
+
+      <form class="" action="index.html" method="post" enctype="multipart/form-data">
+          <br>Upload your Pic: <br>
+        <input type="file" name="ftoupload">
+        <input type="Submit" name="Submit">
+      </form>
+
+      <form action="index.html" method="post">
+        Enter your Details below : <br>
+          <label for="Age">Your Age</label>
+          <input type="number" min="0" max="100" step="1" value="18" required ><br>
+          <label for="Birthday">Date of Birth</label>
+          <input type="date" name="birthday"> <br>
+          <label for="wake">You want to wake up at </label>
+          <input type="time"> <br>
+          <label for="color">Your favorite color </label>
+          <input type="color">   <br>
+          <label for="Mood">Mood  :</label>
+          Bad<input type="range" min="0" max="100" step="1" value="50">Good
+          <br>  Rate me
+        <input type="radio">
+        <input type="radio">
+        <input type="radio">
+        <input type="radio">
+        <input type="radio">
+        <input type="radio"> <br>
+        <input type="submit" value="Submit"> <br>
+      </form>
+      <fieldset>
+      <legend> What should we do</legend>
+      Eat <br> Code <br> Sleep <br> Repeat...!
+      </fieldset>
 
 
   </body>
